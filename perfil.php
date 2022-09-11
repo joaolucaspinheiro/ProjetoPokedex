@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/stylerestrito.css">
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <img src="./images/download.jfif" >
+    <input type="checkbox" id="ham-menu">
+    <label for="ham-menu">
+        <div class="hide-des">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </div>
+
+    </label>
+    <div class="full-page-green"></div>
+    <div class="ham-menu">
+        <ul class="centre-text bold-text">
+            <a href="pokedex.html">
+            <li>Pokédex</li>
+        </a>
+            <a href="perfil.html">
+                <li>Perfil</li>
+            </a>
+            <a href="saibamais.html">
+                <li>Saiba Mais</li>
+            </a>
+            <a href="sair.php">
+                <li>Sair</li>
+            </a>
+
+        </ul>
+    </div>
+</body>
+
+</html>
